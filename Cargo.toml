@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 nalgebra = { version = "0.31", optional = true }
 rand = { version = "0.8", optional = true }
-fnv = { version = "1", optional = true }
+ahash = { version = "0.8", optional = true }
+regex = { version = "1", optional = true }
