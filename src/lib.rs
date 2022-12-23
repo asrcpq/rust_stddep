@@ -1,9 +1,6 @@
 #[cfg(feature = "nalgebra")]
 pub use nalgebra;
 
-#[cfg(feature = "nalgebra-glm")]
-pub use nalgebra_glm;
-
 #[cfg(feature = "rand")]
 pub use rand;
 
