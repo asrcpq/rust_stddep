@@ -9,3 +9,6 @@ pub use ahash;
 
 #[cfg(feature = "regex")]
 pub use regex;
+
+#[cfg(feature = "winit")]
+pub use winit;
